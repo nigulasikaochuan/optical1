@@ -31,6 +31,7 @@ class ResourceManageMent(app_manager.RyuApp):
             (9, 10): 750, (9, 12): 300,
             (11, 12): 600, (11, 13): 750, (12, 14): 300, (13, 14): 150
         }
+        #hahjkdfjalkjdkljakldfjakljfkdlklajkl
         self.remainSlots = {key:[i for i in range(128)] for key in self.distance_between_nodes}
         self.weight={}
         for (src_dpid, dst_dpid) in self.distance_between_nodes:
