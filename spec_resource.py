@@ -19,8 +19,6 @@ class ResourceManageMent(app_manager.RyuApp):
 
     OFP_VERSIONS = [ofproto_v1_3.OFP_VERSION]
 
-    sdsfadfafdsa
-
     def __init__(self, *args, **kwargs):
         super(ResourceManageMent, self).__init__(*args, **kwargs)
         self.name = 'link_resource'
